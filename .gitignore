@@ -1,0 +1,3 @@
+*.so
+*.o
+libbcm_host.so*

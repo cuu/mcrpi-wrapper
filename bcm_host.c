@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <EGL/egl.h>
-#include <GLES/gl.h>
+#include <GL/gl.h>
 #include <dlfcn.h>
 #include <SDL.h>
 #include <SDL_syswm.h>
