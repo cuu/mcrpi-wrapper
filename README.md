@@ -27,6 +27,11 @@ Finally, run minecraft-pi with the following invokation:
 
     LD_PRELOAD=./libbcm_host.so LD_LIBRARY_PATH=$PWD ./minecraft-pi
 
+
+to run pico8 games on GameShell:
+    
+    LD_LIBRARY_PATH=. DISPLAY=:0 ./robogame -splore -draw_rect 32,0,256,240
+
 Gotchas
 -------
 
